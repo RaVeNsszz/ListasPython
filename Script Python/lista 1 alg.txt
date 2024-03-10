@@ -1,0 +1,4 @@
+#q1
+num = str(input("Digite um numero do grupo dos Naturais: ))
+operacao = num + 2 
+print("O número natural informado e somado mais 2 é: ", operacao)

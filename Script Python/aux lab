@@ -1,0 +1,18 @@
+nomes = []
+controle = "S"
+
+while controle == "S":
+    nomes.append(str(input("Nome: ")))
+    controle = str(input("Continuar S/N: ")).upper()
+
+matriz = []
+for nome in range(len(nomes)):
+    linha = []
+    for j in range(len(nomes)):   
+        linha.append(str(input("E-mail: ")))
+        linha.append(int(input("Número de Compras Realizadas: ")))
+        linha.append(float(input("CashBack acumulado: ")))
+
+    matriz.append(linha)       
+
+print(matriz)
